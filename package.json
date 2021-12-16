@@ -1,13 +1,17 @@
 {
   "name": "@danydodson/prettier-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Prettier configuration for JavaScript files",
   "main": "index.js",
   "scripts": {
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "release": "standard-version"
   },
   "dependencies": {
     "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2"
   },
   "author": {
     "name": "Dany Dodson",
