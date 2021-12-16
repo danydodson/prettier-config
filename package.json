@@ -7,7 +7,7 @@
     "precommit": "pretty-quick --staged"
   },
   "dependencies": {
-    "prettier": "^1.x.x"
+    "prettier": "^2.5.1"
   },
   "author": {
     "name": "Dany Dodson",
