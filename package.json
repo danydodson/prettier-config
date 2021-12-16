@@ -1,31 +1,32 @@
 {
   "name": "@danydodson/prettier-config",
   "version": "1.0.0",
-  "description": "Prettier configuration",
+  "description": "Prettier configuration for JavaScript files",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danydodson/prettier-config"
+  "scripts": {
+    "precommit": "pretty-quick --staged"
   },
-  "keywords": [
-    "prettier",
-    "config",
-    "Dany Dodson",
-    "danydodson"
-  ],
+  "dependencies": {
+    "prettier": "^1.x.x"
+  },
   "author": {
     "name": "Dany Dodson",
     "email": "danydodson@gmail.com",
     "twitter": "@danydodson"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danydodson/prettier-config.git"
+  },
+  "homepage": "https://github.com/danydodson/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/danydodson/prettier-config/issues"
   },
-  "scripts": {
-    "precommit": "pretty-quick --staged"
-  },
-  "dependencies": {
-    "prettier": "^1.x.x"
-  }
+  "keywords": [
+    "prettier",
+    "config",
+    "danydodson",
+    "dany dodson"
+  ]
 }
