@@ -53,7 +53,7 @@ As another line of defense, if you want Prettier to automatically fix your error
 yarn add --dev prettier pretty-quick husky
 npm install --save-dev prettier pretty-quick husky
 ```
-
+ 
 Update your `package.json` like this:
 
 ```json
