@@ -1,18 +1,16 @@
 {
   "name": "@danydodson/prettier-config",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Prettier configuration for JavaScript files",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"./**/*.{js,jsx,json,css,md}\"",
-    "precommit": "pretty-quick --staged",
+    "format": "prettier --write \"./**/*.{js,jsx,json,md,mdx,css}\"",
     "release": "standard-version"
   },
   "dependencies": {
     "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "pretty-quick": "^3.1.2",
     "standard-version": "^9.3.2"
   },
   "author": {
