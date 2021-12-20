@@ -34,7 +34,7 @@ We export two ESLint configurations for your usage:
 Create a `prettier.config.js` file at the root of your project that contains:
 
 ```js
-module.exports = require('@danydodson/prettier-config');
+module.exports = require('@danydodson/prettier-config')
 ```
 
 ### Four Spaces Config
@@ -42,7 +42,7 @@ module.exports = require('@danydodson/prettier-config');
 If you prefer 4 spaces instead of 2, use this in your `prettier.config.js` instead:
 
 ```js
-module.exports = require('@danydodson/prettier-config/four-spaces');
+module.exports = require('@danydodson/prettier-config/four-spaces')
 ```
 
 ## Pre-commit Hook
@@ -53,7 +53,7 @@ As another line of defense, if you want Prettier to automatically fix your error
 yarn add --dev prettier pretty-quick husky
 npm install --save-dev prettier pretty-quick husky
 ```
- 
+
 Update your `package.json` like this:
 
 ```json
@@ -116,13 +116,13 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
 - **Semicolons**: Always print semicolons at the ends of statements.
 
   ```js
-  const greeting = 'hi';
+  const greeting = 'hi'
   ```
 
 - **Quote**: Use single quotes instead of double quotes.
 
   ```js
-  const quote = 'single quotes are better';
+  const quote = 'single quotes are better'
   ```
 
 - **Trailing Commas**: Use trailing commas wherever possible.
@@ -130,22 +130,22 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
   ```js
   const obj = {
     a: 'hi',
-    b: 'hey',
-  };
+    b: 'hey'
+  }
   ```
 
 - **Bracket Spacing**: Print spaces between brackets in object literals.
 
   ```js
   {
-    foo: bar;
+    foo: bar
   }
   ```
 
 - **JSX Brackets**: Put the `>` of a multi-line JSX element at the end of the last line instead of being alone on the next line (does not apply to self closing elements).
 
   ```jsx
-  <button className="prettier-class" id="prettier-id" onClick={this.handleClick}>
+  <button className='prettier-class' id='prettier-id' onClick={this.handleClick}>
     Click Here
   </button>
   ```
@@ -153,5 +153,5 @@ Check out all of Prettier's [configuration options](https://prettier.io/docs/en/
 - **Arrow Function Parentheses**: Omit parens when possible.
 
   ```js
-  x => x;
+  x => x
   ```

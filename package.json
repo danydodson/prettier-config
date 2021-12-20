@@ -4,6 +4,7 @@
   "description": "Prettier configuration for JavaScript files",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --write \"./**/*.{js,jsx,json,css,md}\"",
     "precommit": "pretty-quick --staged",
     "release": "standard-version"
   },
@@ -11,12 +12,12 @@
     "prettier": "^2.5.1"
   },
   "devDependencies": {
+    "pretty-quick": "^3.1.2",
     "standard-version": "^9.3.2"
   },
   "author": {
     "name": "Dany Dodson",
-    "email": "danydodson@gmail.com",
-    "twitter": "@danydodson"
+    "email": "danydodson@gmail.com"
   },
   "license": "ISC",
   "repository": {
@@ -29,8 +30,9 @@
   },
   "keywords": [
     "prettier",
-    "config",
-    "danydodson",
-    "dany dodson"
+    "prettier-config",
+    "react",
+    "javascript",
+    "danydodson"
   ]
 }

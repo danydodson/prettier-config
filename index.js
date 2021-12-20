@@ -1,13 +1,10 @@
-// https://prettier.io/docs/en/configuration.html
-
 module.exports = {
-  printWidth: 180,
   tabWidth: 2,
-  useTabs: false,
+  printWidth: 180,
   semi: false,
   singleQuote: true,
   trailingComma: 'none',
-  bracketSpacing: true,
   jsxSingleQuote: true,
-  arrowParens: 'avoid',
+  bracketSpacing: true,
+  arrowParens: 'avoid'
 }
