@@ -1,6 +1,6 @@
 {
   "name": "@danydodson/prettier-config",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Prettier configuration for JavaScript files",
   "main": "index.js",
   "scripts": {
